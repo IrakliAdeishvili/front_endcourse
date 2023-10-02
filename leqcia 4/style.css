@@ -1,0 +1,45 @@
+div {
+    background-color: black;
+}
+
+#firstDiv {
+    background-color: brown;
+}
+
+.redElements {
+    font-family:'Times New Roman', Times, serif;
+    background-color: red;
+    background-color: rgba(255, 0, 0,0.5);
+    font-style:italic;
+    font-weight: 500;
+    font-size: 2em;
+}
+.tallElements {
+    height: 200px;
+    width: 100vw;
+}
+
+#firstDiv , .redElements{
+    color: blue;
+}
+#separateDiv , subchild p {
+    color: green;
+}
+
+.squerElements {
+    width: 50% ;
+    height: 20px;
+    background-color: blueviolet;
+    border-color: aqua;
+    border: 100px aqua;
+}
+#sizeChild{
+    width: 20%;
+   max-width: 20px; ;
+    height: 20px;
+    background-color: yellow;
+}
+#seconsizeCild{
+    height:inherit;
+}
+
